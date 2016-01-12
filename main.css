@@ -1,1 +1,80 @@
 /* ADD YOUR STYLES HERE */
+/* General */
+
+.table { 
+	background: white; 
+	color: black;
+	font-size: 16px;
+	text-align: left; 
+}
+
+.table th {
+	font-weight: bold;
+	font-family:sans-serif;
+	color: black; 
+	/*padding-right: 100px; */
+	position: relative;
+}
+
+td {
+	padding-right: 100px;
+	padding-bottom: 10px; 
+}
+
+.table tr {
+	border-bottom-style: solid;
+	border-color: grey;
+	border-bottom-width: thin;
+	padding: 10px; 
+}
+
+.topdatatable {
+	border-bottom-style: solid;
+	border-color: grey;
+	border-bottom-width: thin;
+	padding-right: 100px;
+	padding: 5px;
+}
+
+.headertoprow {
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-color: grey;
+	border-bottom-width: thin;
+	padding: 10px;
+}
+
+.numbercolumn {
+	padding-right: 40px;
+	border-bottom-style: solid;
+	border-color: grey;
+	border-bottom-width: thin;
+}
+
+.stats{
+	border-top-style: solid;
+	border-top-color: grey;
+	border-top-width: thin; 
+	padding: 20px;
+
+}
+
+.bignumber {
+	font-weight: bold;
+	font-size: 36px;
+	padding-right: 40px; 
+}
+
+.noborder {
+	border-bottom: 0px solid black; 
+}
+
+.graph { 
+	width: 100%;
+	background-color: #6495ED; 
+	border-radius: 0px 3px 3px 0px; 
+	color: white;
+	font-weight: bold; 
+	text-align: left; 
+
+}

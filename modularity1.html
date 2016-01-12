@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CSS Modularity</title>
@@ -19,24 +20,24 @@
 	    		<p class="instruction-text">Style a table full of data so that it looks nicer than the brower defaults.</p>
 					<div class="instruction-answer">
 						<!-- Edit here -->
-						<table>
-							<tr>
-								<td>0</td>
+						<table class ="table">
+							<tr class="topdatatable">
+								<td class="numbercolumn">0</td>
 								<td>Sean</td>
 								<td>Daaken</td>
 								<td>@seandaken</td>
 							</tr>
-							<tr>
-								<td>1</td>
+							<tr class ="raine">
+								<td class="numbercolumn">1</td>
 								<td>Raine</td>
 								<td>Lourie</td>
 								<td>@metaraine</td>
 							</tr>
-							<tr>
-								<td>2</td>
+							<tr class="matt">
+								<td class="numbercolumn">2</td>
 								<td>Matt</td>
 								<td>Null</td>
-								<td>@nullempire</td>
+								<td class="noborder">@nullempire</td>
 							</tr>
 						</table>
 				    <!-- End editable area -->
@@ -46,9 +47,9 @@
 					<div class="instruction-answer">
 						<!-- Edit here -->
 						<table>
-							<thead>
+							<thead class="headertoprow">
 								<tr>
-									<th>#</th>
+									<th class="numbercolumn">#</th>
 									<th>First Name</th>
 									<th>Last Name</th>
 									<th>Username</th>
@@ -56,19 +57,19 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>0</td>
+									<td class="numbercolumn">0</td>
 									<td>Sean</td>
 									<td>Daaken</td>
 									<td>@seandaken</td>
 								</tr>
 								<tr>
-									<td>1</td>
+									<td class="numbercolumn">1</td>
 									<td>Raine</td>
 									<td>Lourie</td>
 									<td>@metaraine</td>
 								</tr>
 								<tr>
-									<td>2</td>
+									<td class="numbercolumn">2</td>
 									<td>Matt</td>
 									<td>Null</td>
 									<td>@nullempire</td>
@@ -87,11 +88,11 @@
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
 			    	<table>
-			    		<tbody>
+			    		<tbody class ="stats">
 			    			<tr>
-			    				<td><div>7</div><div>followers</div></td>
-			    				<td><div>59</div><div>starred</div></td>
-			    				<td><div>28</div><div>following</div></td>
+			    				<td><div class="bignumber">7</div><div>followers</div></td>
+			    				<td><div class="bignumber">59</div><div>starred</div></td>
+			    				<td><div class="bignumber">28</div><div>following</div></td>
 			    			</tr>
 			    		</tbody>
 			    	</table>
@@ -108,43 +109,43 @@
 			    	<table>
 			    		<tr>
 			    			<th>Javascript</th>
-			    			<td><div style="width: 99%">21%</div></td>
+			    			<td><div class="graph" style="width: 99%">21%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Ruby</th>
-			    			<td><div style="width: 57.1%">12%</div></td>
+			    			<td><div class="graph" style="width: 57.1%">12%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Java</th>
-			    			<td><div style="width: 38.1%">8%</div></td>
+			    			<td><div class="graph"  style="width: 38.1%">8%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Python</th>
-			    			<td><div style="width: 38.1%">8%</div></td>
+			    			<td><div class="graph" style="width: 38.1%">8%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Shell</th>
-			    			<td><div style="width: 38.1%">8%</div></td>
+			    			<td><div class="graph"  style="width: 38.1%">8%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>PHP</th>
-			    			<td><div style="width: 33.3%">7%</div></td>
+			    			<td><div class="graph" style="width: 33.3%">7%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>C</th>
-			    			<td><div style="width: 28.8%">6%</div></td>
+			    			<td><div class="graph" style="width: 28.8%">6%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>C++</th>
-			    			<td><div style="width: 23.8%">5%</div></td>
+			    			<td><div class="graph" style="width: 23.8%">5%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Perl</th>
-			    			<td><div style="width: 19.0%">4%</div></td>
+			    			<td><div class="graph" style="width: 19.0%">4%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Objective-C</th>
-			    			<td><div style="width: 14.3%">3%</div></td>
+			    			<td><div  class="graph" style="width: 14.3%">3%</div></td>
 			    		</tr>
 			    	</table>
 				    <!-- End editable area -->
