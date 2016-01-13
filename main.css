@@ -12,11 +12,11 @@
 	font-weight: bold;
 	font-family:sans-serif;
 	color: black; 
-	/*padding-right: 100px; */
+	padding-right: 100px; 
 	position: relative;
 }
 
-td {
+.table td {
 	padding-right: 100px;
 	padding-bottom: 10px; 
 }
@@ -28,7 +28,7 @@ td {
 	padding: 10px; 
 }
 
-.topdatatable {
+.sean {
 	border-bottom-style: solid;
 	border-color: grey;
 	border-bottom-width: thin;
@@ -36,6 +36,13 @@ td {
 	padding: 5px;
 }
 
+.raine {
+	border-bottom-style: solid;
+	border-color: grey;
+	border-bottom-width: thin;
+	padding-right: 100px;
+	padding: 5px;
+}
 .headertoprow {
 	font-weight: bold;
 	border-bottom-style: solid;
@@ -46,28 +53,37 @@ td {
 
 .numbercolumn {
 	padding-right: 40px;
-	border-bottom-style: solid;
-	border-color: grey;
-	border-bottom-width: thin;
 }
+
+/*-------------------Stats--------------------- */
 
 .stats{
 	border-top-style: solid;
 	border-top-color: grey;
 	border-top-width: thin; 
-	padding: 20px;
+	border-bottom-style: solid;
+	border-bottom-color: grey;
+	border-bottom-width: thin;
 
 }
 
 .bignumber {
 	font-weight: bold;
 	font-size: 36px;
-	padding-right: 40px; 
+	padding-right: 30px; 
+	/*padding: 20px; */
+}
+
+.words {
+	color: grey;
+	font-size: 10px;
 }
 
 .noborder {
 	border-bottom: 0px solid black; 
 }
+
+/*-----------------Bar Chart------------------ */
 
 .graph { 
 	width: 100%;
@@ -76,5 +92,49 @@ td {
 	color: white;
 	font-weight: bold; 
 	text-align: left; 
+	padding: 3px;
 
 }
+/*/*--------Light Box-----------------*/
+
+.lightbox {
+	height: 100vh;
+	width: 100wh;
+	line-height: 100lh; 
+	background-color: #56585c; 
+	display: block;
+
+}
+
+.hello {
+	background-color: white;
+	float: center;
+
+}*/
+
+/*------------------Media Box ---------------*/
+
+
+.float{
+	overflow: hidden; 
+
+}
+
+.float img {
+	float: left;
+	padding-right: 10px;
+}
+
+.cupcake{
+	float:right;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
